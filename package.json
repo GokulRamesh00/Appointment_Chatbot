@@ -1,0 +1,19 @@
+{
+  "name": "appointment-chatbot-system",
+  "version": "1.0.0",
+  "description": "Complete chatbot system for appointment scheduling with LangChain integration",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\" \"npm run dev:python\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:python": "cd python-service && python app.py",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install && cd ../python-service && pip install -r requirements.txt"
+  },
+  "keywords": ["chatbot", "appointments", "langchain", "react", "nodejs", "python"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
