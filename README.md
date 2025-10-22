@@ -17,8 +17,8 @@ A complete AI-powered appointment scheduling system built with modern web techno
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   React Frontend │    │  Node.js Backend │    │ Python Service  │
-│   (Port 3000)   │◄──►│   (Port 5000)    │◄──►│   (Port 8000)   │
+│  React Frontend │    │ Node.js Backend │    │ Python Service  │
+│   (Port 3000)   │◄──►│   (Port 5000)   │◄──►│   (Port 8000)   │
 │                 │    │                 │    │                 │
 │ • Next.js 14    │    │ • Express.js    │    │ • Flask         │
 │ • TypeScript    │    │ • JWT Auth      │    │ • LangChain     │
